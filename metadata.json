@@ -1,0 +1,6 @@
+{
+  "name": "Stonemere Life Management",
+  "description": "Premium life management, estate coordination, dementia-sensitive home prep, and crisis support when it matters most.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

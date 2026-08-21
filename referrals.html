@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Referrals Portal | Stonemere Life Management</title>
+  <meta name="description" content="Dedicated referral portal for Private Client Solicitors, Court of Protection Deputies, GPs, Hospices, and Age UK advisors.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <header class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="emergency-pill"><i class="fa-solid fa-clock"></i> Professional Priority Desk</span>
+        <a href="tel:07891341414" class="top-bar-link"><i class="fa-solid fa-phone"></i> <strong>07891 341414</strong></a>
+        <a href="mailto:paulbharrison@mail.com" class="top-bar-link"><i class="fa-solid fa-envelope"></i> paulbharrison@mail.com</a>
+      </div>
+      <div class="top-bar-right">
+        <span class="top-bar-link"><i class="fa-solid fa-shield-halved"></i> Fast-Track Intake Under 2h</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN HEADER -->
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a href="/index.html" class="brand-logo" aria-label="Stonemere Life Management Home">
+        <img src="/assets/logo-light.svg" alt="Stonemere - Private Elder Life Management - Family Affairs Coordination - Bath • Cotswolds • London" class="brand-logo-img">
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="/index.html" class="nav-link">Home</a></li>
+          <li><a href="/about.html" class="nav-link">About</a></li>
+          <li><a href="/services.html" class="nav-link">Services</a></li>
+          <li><a href="/dementia-home-prep.html" class="nav-link">Dementia Care</a></li>
+          <li><a href="/house-clearance.html" class="nav-link">House Clearance</a></li>
+          <li><a href="/pricing.html" class="nav-link">Pricing</a></li>
+          <li><a href="/referrals.html" class="nav-link active">Referrals</a></li>
+          <li><a href="/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#referralDesk" class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-file-export"></i> Submit Referral
+          </a>
+        </div>
+      </nav>
+      <button type="button" class="mobile-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumbs">
+        <a href="/index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <span>Professional Referrals</span>
+      </nav>
+      <span class="eyebrow">Trusted by Legal &amp; Healthcare Leaders</span>
+      <h1>Professional Referral Portal</h1>
+      <p class="lead-text" style="color: var(--c-text-inverse-muted); max-width: 780px;">
+        Acting as the reliable practical arm for Solicitors, Court of Protection Deputies, Hospital Discharge Teams, and Hospice Social Workers across London &amp; the Home Counties.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROFESSIONAL DISCIPLINES -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="eyebrow with-lines">Sector Specialisations</span>
+        <h2>How We Support Your Practice &amp; Clients</h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+        
+        <!-- Solicitors & Probate -->
+        <div class="service-card" id="solicitors">
+          <div class="service-icon-wrap"><i class="fa-solid fa-scale-balanced"></i></div>
+          <h3 class="service-title">Private Client Solicitors &amp; Executors</h3>
+          <p class="service-desc">
+            We solve the hands-on estate logistics that tie up fee-earners: locating missing wills and deeds, conducting forensic room-by-room inventories, and managing probate house clearances ready for sale.
+          </p>
+          <a href="#referralDesk" class="service-link">Refer a Probate Case <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Court of Protection -->
+        <div class="service-card" id="deputies">
+          <div class="service-icon-wrap"><i class="fa-solid fa-landmark"></i></div>
+          <h3 class="service-title">Court of Protection Deputies</h3>
+          <p class="service-desc">
+            We act as your trusted eyes and ears on the ground for vulnerable 'P' clients. We audit property safety, oversee contractor estimates, manage de-cluttering, and provide verified photographic evidence for OPG annual reporting.
+          </p>
+          <a href="#referralDesk" class="service-link">Refer a Deputy Case <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- GPs & Hospital Discharge -->
+        <div class="service-card" id="gp">
+          <div class="service-icon-wrap"><i class="fa-solid fa-hospital-user"></i></div>
+          <h3 class="service-title">GPs &amp; Hospital Discharge Teams</h3>
+          <p class="service-desc">
+            Unblocking delayed transfers of care by rapidly resolving unsafe home environments within 24 hours: installing key safes, eliminating fall hazards, deep cleaning, and ensuring food and warmth are operational.
+          </p>
+          <a href="#referralDesk" class="service-link">Refer a Discharge <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Hospice & Palliative -->
+        <div class="service-card" id="hospice">
+          <div class="service-icon-wrap"><i class="fa-solid fa-heart-pulse"></i></div>
+          <h3 class="service-title">Hospices &amp; Palliative Coordinators</h3>
+          <p class="service-desc">
+            Providing compassionate, gentle environmental modifications so patients can remain in the comfort and dignity of their own homes surrounded by their familiar possessions during their final chapters.
+          </p>
+          <a href="#referralDesk" class="service-link">Refer a Hospice Patient <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Age UK & Charities -->
+        <div class="service-card" id="ageuk">
+          <div class="service-icon-wrap"><i class="fa-solid fa-people-roof"></i></div>
+          <h3 class="service-title">Age UK &amp; Third-Sector Advisors</h3>
+          <p class="service-desc">
+            Providing high-capacity practical intervention for complex self-neglect, severe hoarding, or scam vulnerability cases where standard voluntary resources have reached their limits.
+          </p>
+          <a href="#referralDesk" class="service-link">Discuss Third-Sector Case <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMAL REFERRAL DESK -->
+  <section class="section section-dark" id="referralDesk">
+    <div class="container" style="max-width: 860px;">
+      <div class="section-header text-center">
+        <span class="eyebrow with-lines">Encrypted Transmission</span>
+        <h2>Submit a Professional Case Referral</h2>
+        <p class="lead-text">
+          Paul Harrison personally logs all professional referrals. You will receive formal acknowledgment and an engagement summary within 2 business hours.
+        </p>
+      </div>
+
+      <div style="background-color: var(--c-surface); color: var(--c-text); border-radius: var(--radius-lg); padding: 2.5rem; border: 1px solid rgba(194, 155, 56, 0.35); box-shadow: var(--shadow-lg);">
+        <form id="referralForm">
+          <div class="form-grid">
+            <div>
+              <label for="refName2" class="form-label">Referrer Name &amp; Role *</label>
+              <input type="text" id="refName2" class="form-input" placeholder="e.g. Sarah Jenkins, Senior Solicitor" required>
+            </div>
+            <div>
+              <label for="refFirm2" class="form-label">Firm / Practice / NHS Trust *</label>
+              <input type="text" id="refFirm2" class="form-input" placeholder="e.g. Kingsley Napley LLP / NHS Surrey" required>
+            </div>
+            <div>
+              <label for="refPhone2" class="form-label">Direct Phone *</label>
+              <input type="tel" id="refPhone2" class="form-input" placeholder="e.g. 020 7821 0000" required>
+            </div>
+            <div>
+              <label for="refEmail2" class="form-label">Professional Work Email *</label>
+              <input type="email" id="refEmail2" class="form-input" placeholder="e.g. s.jenkins@firm.co.uk" required>
+            </div>
+            <div>
+              <label for="clientArea" class="form-label">Client Location / Borough</label>
+              <input type="text" id="clientArea" class="form-input" placeholder="e.g. Kensington &amp; Chelsea, W8">
+            </div>
+            <div>
+              <label for="intakeUrgency" class="form-label">Target Urgency</label>
+              <select id="intakeUrgency" class="form-select">
+                <option value="Standard">Standard Assessment (2-3 Days)</option>
+                <option value="Urgent">Urgent Discharge / Move (24-48 Hours)</option>
+                <option value="Crisis">Emergency Immediate Triage (&lt; 24 Hours)</option>
+              </select>
+            </div>
+            <div class="form-group-full">
+              <label for="caseSummary" class="form-label">Case Summary &amp; Specific Scope Required *</label>
+              <textarea id="caseSummary" class="form-textarea" placeholder="Detail the practical hurdles (e.g. probate property decluttering, vulnerable client safety audit, hospital discharge home prep)..." required></textarea>
+            </div>
+            <div class="form-group-full">
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                <i class="fa-solid fa-shield-check"></i> Transmit Formal Case Referral
+              </button>
+              <p class="form-disclaimer">
+                <i class="fa-solid fa-lock"></i> All data is processed in accordance with the UK Data Protection Act 2018 and strict professional confidentiality codes.
+              </p>
+            </div>
+          </div>
+        </form>
+        <div class="form-feedback success" id="refSuccessFeedback" style="display:none; margin-top: 1.5rem;">
+          <i class="fa-solid fa-circle-check" style="font-size: 1.5rem;"></i>
+          <div>
+            <strong>Referral Transmitted Successfully.</strong>
+            <p style="margin: 0; font-size: 0.9rem;">Paul Harrison has received your submission. A formal email confirmation with next steps has been dispatched to your address.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-logo" style="margin-bottom: 1.25rem;">
+            <img src="/assets/logo.svg" alt="Stonemere - Private Elder Life Management - Family Affairs Coordination - Bath • Cotswolds • London" class="brand-logo-img" style="height: 56px;">
+          </div>
+          <p style="font-size: 0.875rem; color: var(--c-text-inverse-muted);">Discreet life management and practical coordination for private families and professional referrers.</p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/services.html">Services Hub</a></li>
+            <li><a href="/pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Specialisations</h4>
+          <ul class="footer-links">
+            <li><a href="/dementia-home-prep.html">Dementia Home Prep</a></li>
+            <li><a href="/house-clearance.html">House Clearance</a></li>
+            <li><a href="/referrals.html">Professional Referrals</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Direct Line</h4>
+          <p style="font-size: 0.85rem; color: #FFFFFF;">
+            <strong>Paul Harrison:</strong> <a href="tel:07891341414" style="color: var(--c-gold-light);">07891 341414</a><br>
+            <strong>Email:</strong> <a href="mailto:paulbharrison@mail.com" style="color: var(--c-gold-light);">paulbharrison@mail.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="legal-box">
+        <strong>REGULATORY NOTICE:</strong> Stonemere provides professional life management, estate resolution, and logistics. We do not provide clinical medical care or formal legal advice.
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-credits">
+          <span>&copy; 2026 Stonemere Life Management.</span>
+          <span>All rights reserved.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
