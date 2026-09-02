@@ -1225,6 +1225,78 @@ h4 { font-size: 1.2rem; font-weight: 500; }
   border: 1px solid #C8E6C9;
 }
 
+@media (max-width: 900px) {
+  .responsive-two-column {
+    grid-template-columns: 1fr !important;
+  }
+
+  .responsive-auto-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .services-grid[style*="minmax"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  .responsive-two-column .btn {
+    white-space: normal;
+    text-align: center;
+    line-height: 1.35;
+  }
+
+  .service-detail-box {
+    padding: 1.5rem !important;
+  }
+
+  .service-detail-box .btn {
+    white-space: normal;
+    text-align: center;
+    line-height: 1.35;
+  }
+
+  .service-detail-box > div,
+  .service-detail-box > div > div > div {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #referralDesk .referral-form-card {
+    padding: 1.25rem !important;
+  }
+
+  #referralDesk .form-group-full > .btn {
+    width: 100%;
+    min-width: 0;
+    white-space: normal;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .contact-page-grid > div:first-child {
+    padding: 1.25rem !important;
+  }
+
+  .contact-page-grid .contact-sidebar-card {
+    padding: 1.25rem;
+  }
+
+  .responsive-two-column img[style*="height: 560px"] {
+    height: clamp(300px, 90vw, 440px) !important;
+  }
+
+  .responsive-two-column > div > div[style*="padding: 3rem"] {
+    padding: 1.5rem !important;
+  }
+}
+
 /* Direct Contact Info Sidebar */
 .contact-sidebar-card {
   background-color: var(--c-obsidian);
