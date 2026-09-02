@@ -1715,7 +1715,7 @@ h4 { font-size: 1.2rem; font-weight: 500; }
 /* Visual Contrast Cards with Images */
 .contrast-img-box {
   width: 100%;
-  height: 180px;
+  height: 200px;
   border-radius: var(--radius-sm);
   overflow: hidden;
   margin-bottom: 1.25rem;
@@ -1766,7 +1766,7 @@ h4 { font-size: 1.2rem; font-weight: 500; }
 
 .service-visual-img {
   width: 100%;
-  height: 200px;
+  height: 300px;
   overflow: hidden;
   position: relative;
 }
